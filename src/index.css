@@ -1,13 +1,87 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(50, 49, 51) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  background-color: #e4e4e4;
+  height: 10vh;
+  margin-top: 0px;
+  text-align: center;
+}
+.wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;    
+}
+
+.wrapper .main{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrapper .form-container{
+  width: 400px;
+  height: auto;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;   
+  border-radius: 8px;
+}
+
+.form-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+  margin-bottom: 10px;
+}
+.gen-lab{
+  margin-right: 26%;
+}
+.gender{
+  display: flex;
+  margin: 6px;
+}
+
+.wrapper .form-container .btn{
+  width: 100%;
+}
+
+.form-control{
+  width: auto !important;
+  height: 30px;
+}
+
+.radio-opt{
+  padding-left: 4px;
+}
+
+.wrapper .view-container{
+  width: 600px;
+  height: 80vh;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.delete-btn{
+  color: red;
+  cursor: pointer;
+}
+.tb-head{
+  background-color: rgb(50, 49, 51) !important;
+  color: white;
+}
+.line{
+  border-bottom: 1px solid black;
+}
+tbody{
+  margin-top: 25px;
 }
